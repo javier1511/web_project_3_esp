@@ -52,6 +52,7 @@ width: 95%;
   margin: auto;
   max-width: 100%;
   margin-top: 64px;
+  filter: grayscale(1);
 }
 
 .presentation{
@@ -65,7 +66,6 @@ width: 100%;
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
-
     display: flex;
     margin: auto;
     border: 2px solid rgba(250, 50, 50, .4);
@@ -94,7 +94,7 @@ border: 2px solid rgba(250, 50, 50, .4);
     display: grid;
     margin: auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
    column-gap: 16px;
    row-gap: 16px ;
    border: 2px solid rgba(250, 50, 50, .4);
@@ -112,89 +112,115 @@ border: 2px solid rgba(250, 50, 50, .4);
 
 }
 
-.features-place{
-    display: flex;
-    column-gap: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-     border: 2px solid rgba(250, 50, 50, .4);
-     grid-template-areas:"features__title features__author"
-     "features_image features__text" 
-     "features__button features__text"
- 
-        
-}
-
-.features{
-    margin: auto;
-    max-width: 77.10%;
-    border: 2px solid rgba(250, 50, 50, .4);
-    color: white;
-
-
+.places{
+  width: 77.10%;
+  margin: auto;
 
 }
-
-.features__button{
-    grid-area: features__button;
-    width: 315px;
-    height: 22px;
-
-    margin-top: 61px;
-
+.features {
+  
+column-gap: 40px;
+  margin: auto;
+  border: 2px solid rgba(250, 50, 50, .4);
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "features__title features__author"
+    "features__picture features__description"
+    "features__button .";
 }
 
-.features_image{
-    grid-area: features__image;
-    max-width: 100%;
-    border: 2px solid rgba(250, 50, 50, .4);
-
-
-}
-
-.features__title{
-    width: 35.93%;
-
-    font-style: normal;
+.features__title {
+  width: 35.93%;
+  display: flex;
+  align-self: flex-end;
+  font-family: 'Inter';
+font-style: normal;
 font-weight: 900;
 font-size: 72px;
 line-height: 76px;
-    border: 2px solid rgba(250, 50, 50, .4);
+  border: 2px solid rgba(250, 50, 50, .4);
+  grid-area: features__title; }
+
+.features__picture { 
+  border: 2px solid rgba(250, 50, 50, .4);
+  grid-area: features__picture; }
+
+.features__description {  
+  border: 2px solid rgba(250, 50, 50, .4);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "features__text features__text features__text"
+    "features__text features__text features__text"
+    "features__text2 features__text2 features__text2"
+    "features__text2 features__text2 features__text2";
+  grid-area: features__description;
 }
 
-.features__author{
+.features__text { 
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 163%;
+/* or 29px */
 
 
-    border: 2px solid rgba(250, 50, 50, .4);
+color: #FFFFFF;
+  grid-area: features__text; }
+
+.features__text2 { 
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 163%;
+/* or 29px */
+
+
+color: #FFFFFF;
+  grid-area: features__text2; }
+
+.features__button { 
+  width: 355px;
+height: 48px;
+background: #0278FE;
+border-radius: 4px;
+color: white;
+  grid-area: features__button; }
+
+.features__author {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+  border: 2px solid rgba(250, 50, 50, .4);
+  grid-area: features__author;
 }
 
-.features__description{
-
-
-    border: 2px solid rgba(250, 50, 50, .4);
-}
-.features__text{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
-}
-
-.features__artist{
-    font-family: 'Inter';
+.features__artist { 
+  font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
 line-height: 15px;
+/
 letter-spacing: 0.12em;
 text-transform: uppercase;
 color: #AAAAAA;
-}
-.features__job{
-    font-family: 'Inter';
+  border: 2px solid rgba(250, 50, 50, .4);
+  grid-area: features__artist; }
+
+.features__job {
+  font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 22px;
-}
+color: #FFFFFF;
+  border: 2px solid rgba(250, 50, 50, .4);
+  grid-area: features__job; }
