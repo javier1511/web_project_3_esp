@@ -1,13 +1,14 @@
 body{
    margin: 0;
    background-color: #2A2C2F;
-   border: 2px solid rgba(250, 50, 50, .4);
+ 
 }
 
 .page{
     width: min(1280px,100%);
     margin: 0 auto;
-border: 2px solid rgba(250, 50, 50, .4);
+    padding: 0;
+
 }
 
 .header{
@@ -17,7 +18,7 @@ border: 2px solid rgba(250, 50, 50, .4);
 
 .header-logo{
     max-width: 100%;
-    border: 2px solid rgba(250, 50, 50, .4);
+
     display: flex;
     margin: auto;
 
@@ -26,7 +27,7 @@ border: 2px solid rgba(250, 50, 50, .4);
 .introduction{
     color: white;
     width: 100%;
-    border: 2px solid rgba(250, 50, 50, .4);
+
 }
 
 .introduction__title{
@@ -68,25 +69,24 @@ width: 100%;
     line-height: 58px;
     display: flex;
     margin: auto;
-    border: 2px solid rgba(250, 50, 50, .4);
     margin-top: 92px;
 
 }
 .presentation__subtitle{
 width:56.40%;
-border: 2px solid rgba(250, 50, 50, .4);
+
 }
 
 .presentation__text{
     width: 56.25%;
-    border: 2px solid rgba(250, 50, 50, .4);
+
 
 }
 
 .presentation__author{
     text-align: right;
     width:56.40%;
-    border: 2px solid rgba(250, 50, 50, .4);
+
 }
 
 .gallery{
@@ -97,7 +97,7 @@ border: 2px solid rgba(250, 50, 50, .4);
     grid-template-rows: auto;
    column-gap: 16px;
    row-gap: 16px ;
-   border: 2px solid rgba(250, 50, 50, .4);
+
    margin-top: 92px;
 }
 
@@ -106,7 +106,7 @@ border: 2px solid rgba(250, 50, 50, .4);
     max-height: 100%;
     width: 100%;
     height: 100%;
-    border: 2px solid rgba(250, 50, 50, .4);
+
 
 
 
@@ -118,19 +118,18 @@ border: 2px solid rgba(250, 50, 50, .4);
 
 }
 .features {
-  
+  max-width: 100%;
 column-gap: 40px;
   margin: auto;
-  border: 2px solid rgba(250, 50, 50, .4);
   color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto auto 1fr;
   grid-auto-flow: row;
   grid-template-areas:
     "features__title features__author"
     "features__picture features__description"
-    "features__button .";
+    "features__button features__description";
 }
 
 .features__title {
@@ -142,15 +141,15 @@ font-style: normal;
 font-weight: 900;
 font-size: 72px;
 line-height: 76px;
-  border: 2px solid rgba(250, 50, 50, .4);
+
   grid-area: features__title; }
 
 .features__picture { 
-  border: 2px solid rgba(250, 50, 50, .4);
+ width: 460px;
   grid-area: features__picture; }
 
 .features__description {  
-  border: 2px solid rgba(250, 50, 50, .4);
+ 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -158,7 +157,9 @@ line-height: 76px;
     "features__text features__text features__text"
     "features__text features__text features__text"
     "features__text2 features__text2 features__text2"
-    "features__text2 features__text2 features__text2";
+    "features__text2 features__text2 features__text2"
+    "features__text3 features__text3 features__text3"
+    "features__text3 features__text3 features__text3";
   grid-area: features__description;
 }
 
@@ -168,59 +169,133 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 163%;
-/* or 29px */
-
 
 color: #FFFFFF;
   grid-area: features__text; }
 
 .features__text2 { 
+  margin-top: 0;
   font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 163%;
-/* or 29px */
-
-
 color: #FFFFFF;
   grid-area: features__text2; }
+
+  .features__text3 { 
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF; 
+  grid-area: features__text3;}
 
 .features__button { 
   width: 355px;
 height: 48px;
+margin-top: 61px;
 background: #0278FE;
 border-radius: 4px;
 color: white;
   grid-area: features__button; }
 
 .features__author {
+  display: grid;
   display: flex;
   align-self: flex-end;
   flex-direction: column;
-  border: 2px solid rgba(250, 50, 50, .4);
   grid-area: features__author;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0;
+  grid-template-areas: "features__artist"
+  "features__job"
+  "features__job2";
 }
 
 .features__artist { 
+  margin-top: 0;
+  grid-area: features__artist;
   font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
 line-height: 15px;
-/
 letter-spacing: 0.12em;
 text-transform: uppercase;
 color: #AAAAAA;
-  border: 2px solid rgba(250, 50, 50, .4);
-  grid-area: features__artist; }
+  }
 
 .features__job {
+  margin-top: 0;
+  grid-area: features__job;
   font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 22px;
 color: #FFFFFF;
-  border: 2px solid rgba(250, 50, 50, .4);
-  grid-area: features__job; }
+
+  }
+.features__job2{
+  margin-top: 0;
+  grid-area: features__job2;
+
+}
+
+  .visit{
+    margin-top: 92px;
+ 
+
+
+
+
+  }
+.visit__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 740px;
+
+  background-image: url(./images/__background.png);
+  background-size: cover;
+  color: white;
+
+
+}
+.visit__button{
+  color: white;
+  width: 198px;
+height: 48px;
+background: #0278FE;
+border-radius: 4px;
+
+}
+
+.visit__title{
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+color: #FFFDFD;
+
+}
+
+.visit__subtitle{
+  margin-top: 45px;
+  width: 21.7%;
+
+}
+
+.footer{
+  color: white;
+  text-align: center;
+  margin-top: 92px;
+}
