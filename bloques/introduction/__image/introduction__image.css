@@ -1,0 +1,8 @@
+.introduction__image{
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 64px;
+    filter: grayscale(1);
+  }
+  

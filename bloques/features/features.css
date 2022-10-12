@@ -1,0 +1,13 @@
+
+.features{
+    margin-top:92px;
+    max-width: 100%;
+    color:white;
+    display:grid;
+    column-gap: 40px;
+    grid-gap: 1rem;
+    grid-template-columns: 460px fit-content(484px);
+    grid-template-rows: 152px 460px auto;
+  
+  }
+  

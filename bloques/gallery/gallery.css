@@ -1,0 +1,12 @@
+.gallery{
+    width: 92.5%;
+      display: grid;
+      margin: auto;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto;
+     column-gap: 16px;
+     row-gap: 16px ;
+     margin-top: 92px;
+     box-sizing: border-box;
+  
+  }
