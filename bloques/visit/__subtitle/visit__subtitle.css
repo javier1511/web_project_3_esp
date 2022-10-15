@@ -1,5 +1,4 @@
 .visit__subtitle{
-    margin-top: 45px;
     width: 21.7%;
     font-family: 'Inter';
   font-style: normal;
@@ -8,5 +7,5 @@
   line-height: 22px;
   text-align: center;
   color: #FFFFFF;
-  
+  margin:0;
   }

@@ -1,6 +1,5 @@
 
 .presentation__subtitle{
-    width:70.99%;
     margin-top:40px;
     font-family: 'Inter';
     font-style: normal;
@@ -8,6 +7,9 @@
     font-size: 24px;
     line-height: 34px;
     text-align: left;
-    
+
+    width: 722px;
+height: 136px;
+margin-left: 0;
     }
     
