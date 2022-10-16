@@ -1,4 +1,8 @@
 .features__description{
+    width: 484px;
+    height: 203px;
     grid-column:2/2;
     grid-row:2/3;
+    row-gap: 25px;
+
     }

@@ -1,9 +1,11 @@
 
 .features__text{
-    margin-top: 25px;
     font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
+  margin: 0;
+  margin-bottom: 25px;
+
   }

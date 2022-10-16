@@ -1,5 +1,6 @@
 
 .features__job{
+    margin: 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -8,4 +9,5 @@
     margin: 0;
     padding: 0;
     color: #FFFFFF;
+
     }
