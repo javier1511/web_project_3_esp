@@ -15,7 +15,6 @@
   @import url(../bloques/gallery/__image/gallery__image.css);
   @import url(../bloques/places/places.css);
   @import url(../bloques/features/features.css);
-  @import url(../bloques/features/__main/_main/features_main_modifier.css);
   @import url(../bloques/features/__title/features__title.css);
   @import url(../bloques/features/__main-picture/features__main-picture.css);
   @import url(../bloques/features/__picture/features__picture.css);
@@ -139,32 +138,30 @@ margin-top: 32px;
     }
     
     .places{
+      width: 720px;
       margin: 0 auto;
-      margin-top: 88px;
-      border: 2px solid rgba(250, 50, 50, .4);
+     
   
     }
-    .features{
-      width: 93.75%;
-      margin: 0 auto;
+    .features{  
+      width: 100%;
+     margin-top: 90px;
       display: grid;
+      justify-content: ;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto auto auto;
-      border: 2px solid rgba(250, 50, 50, .4);
-
-      
-
+    column-gap: 28px;
+     
      }
-
      .features__author{
+      
+      width: 48.88%;  
       margin: 0;
-      border: 2px solid rgba(250, 50, 50, .4);
-
-  
+     
      }
 
      .features__artist{
-
+      
       font-family: 'Inter';
       font-style: normal;
       font-weight: 400;
@@ -175,6 +172,7 @@ margin-top: 32px;
      }
 
      .features__job{
+    
       font-family: 'Inter';
       font-style: normal;
       font-weight: 400;
@@ -183,37 +181,43 @@ margin-top: 32px;
      }
 
      .features__main-picture{
+       max-width: 320px;
+       height: auto;
       margin: 0;
       margin-bottom: 0;
- 
-      border: 2px solid rgba(250, 50, 50, .4);
+
      }
 
      .features__picture{
 margin: 0;
-border: 2px solid rgba(250, 50, 50, .4);
+ 
      }
 
-     .features__description{
-      margin: 0;
-      width: 352px;
-      border: 2px solid rgba(250, 50, 50, .4);
-
+     .features__description{  
+      width: 352px; 
+      row-gap: 14px;
+      
      }
 
      .features__text{
-      margin: 0;
+      width: 100%;
       font-weight: 400;
 font-size: 16px;
 line-height: 163%;
-border: 2px solid rgba(250, 50, 50, .4);
+
 
 
 
      }
+
+     .extra_margin{
+      margin-top: 195px;
+     }
      .features__main{
+        max-width: 340px;
+        min-width: 340px;
       margin: 0;
-      border: 2px solid rgba(250, 50, 50, .4);
+      
    
  
      }
@@ -221,9 +225,8 @@ border: 2px solid rgba(250, 50, 50, .4);
       margin: 0;
       font-weight: 900;
       font-size: 42px;
-      line-height: 46px;
-      margin: 0;
-      border: 2px solid rgba(250, 50, 50, .4);
+      line-height: 46px;  
+
   
      }
  
@@ -231,7 +234,6 @@ border: 2px solid rgba(250, 50, 50, .4);
      
      .features__button{
       margin: 0;
-      margin-top: 48px;
       width: 355px;
       height: 48px;
 font-family: 'Inter';
@@ -239,7 +241,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 22px;
-border: 2px solid rgba(250, 50, 50, .4);
+
 
 
 
@@ -273,9 +275,9 @@ margin: 0;
   @media screen and (max-width: 320px){
 
     .page{
-     min-width: 320px;
-     max-width: 320px;
-     height: auto;
+     width: 320px;
+
+    
     }
 
     .header{
@@ -396,75 +398,99 @@ line-height: 34px;
   
 
     .places{
-      width: 320px;
+width: 320px;
+margin: 0;
+ 
     }
     .features{
-      min-width: 90%;
+      margin: 0;
+      width: 100%;    
       display: flex;
       flex-direction: column;
+   
     }
 
    
 .features__description{
-width: 90%;
+ width: 90%;  
 margin: auto;
-margin-bottom: 285px;
+margin-bottom: 340px;
 
 }
-.features__author{
-  margin: auto;
-  margin-top: 30px;
-  width: 100%;
 
-}
-.features__title{
-  width: 90%;
-margin: auto;
-}
-.features__artist{
-  width: 90%;
-  margin: auto;
-  margin-bottom: 8px;
-}
-.features__job{
-  width: 90%;
-  margin: auto;
-}
 
 .features__text{
   width: 288px;
-  height: auto;
-  margin: 0;
-  margin-top: 6px;
-  gap:7px;
+  row-gap: 8px;
   font-weight: 400;
 font-size: 16px;
 line-height: 163%;
+} 
+
+.extra_margin{
+  margin-top: 180px ;
 }
+.features__author{
+  width: 90% ;
+  margin: 0;  
 
 
+  
+}
+.features__artist{
+  width: 90% ;
+  margin: 0;
+   margin-bottom: 8px;
+   
+
+ }
+ .features__job{
+  width: 90% ;    
+ margin: 0;
+ }
+.features__main{
+  width: 288px;
+  height: auto;
+  margin: 0;
+
+}
+.features__title{  
+  margin: 0;     
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  width: 90% ;
+
+}
 
 .features__main-picture{
 width: 100%;
-
 }
 
 .features__picture{
-  width: 320px;
-height: 320px;
-
+  min-width: 320px;
+  max-width: 320px;
 
 }
     .features__button{
+    
       width: 288px;
       height: 48px;
-      margin: auto;
       font-weight: 600;
 font-size: 14px;
 line-height: 17px;
 
     }
 
+.extra_margin_button{
+  margin-top:12px;
+}
+
+.extra_margin_button2{
+  margin-top: ;
+}
     .visit{
       width: 320px;
      

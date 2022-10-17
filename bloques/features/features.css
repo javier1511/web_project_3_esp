@@ -6,7 +6,8 @@
     column-gap: 40px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
-    row-gap: 25px
-  
+    row-gap: 25px;
+    margin: 0;
+     border: solid 2px red;
   }
   
