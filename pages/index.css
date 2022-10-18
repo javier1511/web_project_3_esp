@@ -15,16 +15,17 @@
   @import url(../bloques/gallery/__image/gallery__image.css);
   @import url(../bloques/places/places.css);
   @import url(../bloques/features/features.css);
+  @import url(../bloques/features/__main/features__main.css);
   @import url(../bloques/features/__title/features__title.css);
   @import url(../bloques/features/__main-picture/features__main-picture.css);
   @import url(../bloques/features/__picture/features__picture.css);
   @import url(../bloques/features/__description/features__description.css);
-  @import url(../bloques/features/__main/features__main.css);
   @import url(../bloques/features/__description/features__text/features__text.css);
   @import url(../bloques/features/__author/features__author.css);
   @import url(../bloques/features/__author/__artist/features__artist.css);
   @import url(../bloques/features/__author/__job/features__job.css);
-  @import url(../bloques/features/__button/features__button.css);
+  @import url(../bloques/features/__button/container__button.css);
+  @import url(../bloques/features/__button/__button/features__button.css);
   @import url(../bloques/visit/visit.css);
   @import url(../bloques/visit/__container/visit__container.css);
   @import url(../bloques/visit/__title/visit__title.css);
@@ -189,6 +190,8 @@ margin-top: 32px;
      }
 
      .features__picture{
+      width: 340px;
+height: 340px;
 margin: 0;
  
      }
@@ -276,7 +279,7 @@ margin: 0;
 
     .page{
      width: 320px;
-
+     border: solid 2px red;
     
     }
 
@@ -284,6 +287,7 @@ margin: 0;
     width: 62.5%;
     margin: auto;
     margin-top: 20px;
+    border: solid 2px red;
     }
     
     .introduction{
@@ -295,6 +299,7 @@ font-size: 40px;
 line-height: 44px;
      margin: auto;
 
+     border: solid 2px red;
     }
 
     
@@ -306,6 +311,7 @@ font-style: normal;
 font-weight: 900;
 font-size: 40px;
 line-height: 44px;
+border: solid 2px red;
      
     }
 
@@ -313,7 +319,7 @@ line-height: 44px;
       margin: 0;
       width: 320px;
       height: 200px;
-
+      border: solid 2px red;
 
     }
 
@@ -325,13 +331,13 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 20px;
-;
+border: solid 2px red;
     }
 
     .presentation{
       width: 90%;
       margin:0 auto;
-  
+      border: solid 2px red;
     }
     .presentation__title{
       margin:0;
@@ -342,7 +348,7 @@ font-style: normal;
 font-weight: 900;
 font-size: 32px;
 line-height: 35px;
-   
+border: solid 2px red;
   
     }
 
@@ -355,6 +361,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 163%;
+border: solid 2px red;
     }
     .presentation__subtitle{
       margin:0;
@@ -366,6 +373,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 30px;
+border: solid 2px red;
    
     }
     .presentation__author{
@@ -377,6 +385,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 34px;
+border: solid 2px red;
     }
 
     .gallery{
@@ -385,7 +394,7 @@ line-height: 34px;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: auto;
-   
+      border: solid 2px red;
     
   
     }
@@ -394,37 +403,52 @@ line-height: 34px;
       width: 288px;
       height: 216px;
       margin: auto;
+      border: solid 2px red;
     }
   
 
     .places{
 width: 320px;
 margin: 0;
- 
+border: solid 2px red;
     }
     .features{
-      margin: 0;
+      margin-top: 0;
       width: 100%;    
       display: flex;
       flex-direction: column;
-   
+      border: solid 2px red;
     }
 
    
 .features__description{
+  margin: 0;  
  width: 90%;  
 margin: auto;
-margin-bottom: 340px;
-
+margin-bottom: 300px;
+border: solid 2px red;
 }
 
+.description_extra{
+margin-bottom: 280px;
+}
+
+.description_extra2{
+  margin-bottom: 280px;
+}
+.extra_margin_button{
+ margin-top: 190px;
+}
 
 .features__text{
+  margin: 0;  
   width: 288px;
+   height: auto;
   row-gap: 8px;
   font-weight: 400;
 font-size: 16px;
 line-height: 163%;
+border: solid 2px red;
 } 
 
 .extra_margin{
@@ -437,60 +461,67 @@ line-height: 163%;
 
   
 }
+.author_extra_margin{
+  margin-top: 50px;
+}
 .features__artist{
   width: 90% ;
   margin: 0;
    margin-bottom: 8px;
-   
+
 
  }
  .features__job{
   width: 90% ;    
  margin: 0;
+
  }
 .features__main{
-  width: 288px;
-  height: auto;
-  margin: 0;
-
+  max-width: 90%;
+  min-width: 90%;
+  margin: 0;  
 }
 .features__title{  
-  margin: 0;     
+  width: 288px;
+  height: 35px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   line-height: 35px;
-  width: 90% ;
-
+  margin: 0;  
 }
 
 .features__main-picture{
-width: 100%;
+  margin: 0;  
+width: 70%;
+border: solid 2px red;
 }
 
 .features__picture{
-  min-width: 320px;
-  max-width: 320px;
+  min-width: 315px;
+  max-width: 315px;
+  border: solid 2px red;
+  margin: 0;  
+}
 
+.container__button{
+  width: 90%;
+  display: flex;
+  flex-direction: column-reverse;
+  
 }
     .features__button{
-    
+margin: 0 ;
       width: 288px;
       height: 48px;
       font-weight: 600;
 font-size: 14px;
 line-height: 17px;
+border: solid 2px red;
 
     }
 
-.extra_margin_button{
-  margin-top:12px;
-}
-
-.extra_margin_button2{
-  margin-top: ;
-}
     .visit{
       width: 320px;
      

@@ -1,13 +1,11 @@
-
 .features{
   width: 100%;
     color:white;
     display:grid;
     column-gap: 40px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    row-gap: 25px;
-    margin: 0;
-     border: solid 2px red;
+    grid-template-rows: auto auto(object-fit) auto;
+   margin-top: 93px;
+    
   }
   
