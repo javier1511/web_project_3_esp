@@ -48,18 +48,14 @@
     src: url(../fonts/Inter-Regular.woff2) format("woff2"),
     url(../fonts/Inter-Regular.woff) format("woff");
   }
-  
   @media screen and (max-width: 768px){
-
     .page{
       width: 768px;
     }
-
     .introduction{
       width: 100%;
       margin: 0 auto;
     }
-
     .introduction__title{
       width: 93.75%;
       font-family: 'Inter';
@@ -69,9 +65,7 @@ font-size: 96px;
 line-height: 100px;
 margin: 0 auto;
 margin-top: 91px;
-
     }
-
     .introduction__subtitle{
       width: 93.75%;
       font-family: 'Inter';
@@ -81,15 +75,12 @@ font-size: 30px;
 line-height: 36px;
 margin: 0 auto;
 margin-top: 99px;
-
     }
-
     .introduction__image{
       max-width: 768px;
       height: 480px;
       margin: 0;
       margin-top: 69px;
-    
     }
     .presentation{
      width: 93.75%;
@@ -105,7 +96,6 @@ line-height: 58px;
 margin: 0;
 margin-top: 55px;
  }
-
  .presentation__subtitle{
   margin: 0;
   font-family: 'Inter';
@@ -124,45 +114,36 @@ font-size: 16px;
 line-height: 163%;
 margin-top: 32px;
  }
-
     .gallery{
       max-width: 93.75%;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto;
-      
-
     }
     .gallery__image{
       max-width: 352px;
      max-height: 264px;
     }
-    
     .places{
       width: 720px;
       margin: 0 auto;
-     
-  
     }
     .features{  
       width: 100%;
      margin-top: 90px;
       display: grid;
-      justify-content: ;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto auto auto;
     column-gap: 28px;
-     
+     }
+     .extra_margin_features{
+      margin-bottom: 170px;
      }
      .features__author{
-      
-      width: 48.88%;  
       margin: 0;
-     
+      margin-bottom: 25px;
      }
-
      .features__artist{
-      
       font-family: 'Inter';
       font-style: normal;
       font-weight: 400;
@@ -171,48 +152,34 @@ margin-top: 32px;
       letter-spacing: 0.12em;
       text-transform: uppercase;
      }
-
      .features__job{
-    
       font-family: 'Inter';
       font-style: normal;
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;
      }
-
      .features__main-picture{
        max-width: 320px;
        height: auto;
       margin: 0;
       margin-bottom: 0;
-
      }
-
      .features__picture{
       width: 340px;
 height: 340px;
 margin: 0;
- 
      }
-
      .features__description{  
       width: 352px; 
       row-gap: 14px;
-      
      }
-
      .features__text{
       width: 100%;
       font-weight: 400;
 font-size: 16px;
 line-height: 163%;
-
-
-
-
      }
-
      .extra_margin{
       margin-top: 195px;
      }
@@ -220,19 +187,19 @@ line-height: 163%;
         max-width: 340px;
         min-width: 340px;
       margin: 0;
-      
-   
- 
      }
      .features__title{
       margin: 0;
       font-weight: 900;
       font-size: 42px;
       line-height: 46px;  
-
-  
      }
- 
+     .width_title{
+   margin: 0  ;
+   width: 100%;
+   height: auto;
+  }
+
 
      
      .features__button{
@@ -279,7 +246,7 @@ margin: 0;
 
     .page{
      width: 320px;
-     border: solid 2px red;
+
     
     }
 
@@ -287,7 +254,7 @@ margin: 0;
     width: 62.5%;
     margin: auto;
     margin-top: 20px;
-    border: solid 2px red;
+   
     }
     
     .introduction{
@@ -298,8 +265,6 @@ font-weight: 900;
 font-size: 40px;
 line-height: 44px;
      margin: auto;
-
-     border: solid 2px red;
     }
 
     
@@ -311,7 +276,7 @@ font-style: normal;
 font-weight: 900;
 font-size: 40px;
 line-height: 44px;
-border: solid 2px red;
+
      
     }
 
@@ -319,7 +284,7 @@ border: solid 2px red;
       margin: 0;
       width: 320px;
       height: 200px;
-      border: solid 2px red;
+  
 
     }
 
@@ -331,13 +296,15 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 20px;
-border: solid 2px red;
+margin-top: 60px;
+margin-bottom: 40px;
+
     }
 
     .presentation{
       width: 90%;
       margin:0 auto;
-      border: solid 2px red;
+      
     }
     .presentation__title{
       margin:0;
@@ -348,7 +315,7 @@ font-style: normal;
 font-weight: 900;
 font-size: 32px;
 line-height: 35px;
-border: solid 2px red;
+
   
     }
 
@@ -361,7 +328,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 163%;
-border: solid 2px red;
+
     }
     .presentation__subtitle{
       margin:0;
@@ -373,7 +340,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 30px;
-border: solid 2px red;
+
    
     }
     .presentation__author{
@@ -385,7 +352,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 34px;
-border: solid 2px red;
+
     }
 
     .gallery{
@@ -394,7 +361,7 @@ border: solid 2px red;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: auto;
-      border: solid 2px red;
+ 
     
   
     }
@@ -403,21 +370,22 @@ border: solid 2px red;
       width: 288px;
       height: 216px;
       margin: auto;
-      border: solid 2px red;
+
     }
   
 
     .places{
 width: 320px;
 margin: 0;
-border: solid 2px red;
+
     }
     .features{
-      margin-top: 0;
+      margin-top: 16;
+      margin-bottom: 0;
       width: 100%;    
       display: flex;
       flex-direction: column;
-      border: solid 2px red;
+   
     }
 
    
@@ -426,7 +394,7 @@ border: solid 2px red;
  width: 90%;  
 margin: auto;
 margin-bottom: 300px;
-border: solid 2px red;
+
 }
 
 .description_extra{
@@ -438,6 +406,7 @@ margin-bottom: 280px;
 }
 .extra_margin_button{
  margin-top: 190px;
+
 }
 
 .features__text{
@@ -448,7 +417,7 @@ margin-bottom: 280px;
   font-weight: 400;
 font-size: 16px;
 line-height: 163%;
-border: solid 2px red;
+
 } 
 
 .extra_margin{
@@ -456,7 +425,8 @@ border: solid 2px red;
 }
 .features__author{
   width: 90% ;
-  margin: 0;  
+  margin: 0;
+  margin-top: 30px;
 
 
   
@@ -495,13 +465,11 @@ border: solid 2px red;
 .features__main-picture{
   margin: 0;  
 width: 70%;
-border: solid 2px red;
 }
 
 .features__picture{
   min-width: 315px;
   max-width: 315px;
-  border: solid 2px red;
   margin: 0;  
 }
 
@@ -509,17 +477,16 @@ border: solid 2px red;
   width: 90%;
   display: flex;
   flex-direction: column-reverse;
+align-self: center;
   
 }
     .features__button{
-margin: 0 ;
+margin: 0;
       width: 288px;
       height: 48px;
       font-weight: 600;
 font-size: 14px;
 line-height: 17px;
-border: solid 2px red;
-
     }
 
     .visit{

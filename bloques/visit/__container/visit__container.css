@@ -8,6 +8,8 @@
     background-image: url(./../../../images/__background.png);
     background-size: cover;
     color: white;
-  
-  
+  }
+
+  .visit__container:hover{
+    opacity: 0.3;
   }
