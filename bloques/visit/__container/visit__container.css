@@ -13,3 +13,16 @@
   .visit__container:hover{
     opacity: 0.3;
   }
+
+  @media screen and (max-width: 768px){
+    
+  }
+  
+  @media screen and (max-width: 320px){
+    .visit__container{
+      width: 320px;
+height: 254px;
+
+    }
+  }
+  

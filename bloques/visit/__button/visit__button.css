@@ -15,3 +15,18 @@
   .visit__button:hover{
     opacity: 0.3;
   }
+
+
+  @media screen and (max-width: 768px){
+    
+  }
+  
+  @media screen and (max-width: 320px){
+    .visit__button{
+      margin-top: 16px;
+      width: 198px;
+height: 48px;
+  
+    }
+  }
+  

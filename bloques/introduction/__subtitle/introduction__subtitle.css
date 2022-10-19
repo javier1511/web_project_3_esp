@@ -9,3 +9,32 @@
     font-family: 'Inter';
 font-style: normal;
 }
+
+@media screen and (max-width: 768px){
+    
+    .introduction__subtitle{
+        width: 93.75%;
+        font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0 auto;
+  margin-top: 99px;
+      }
+}
+
+@media screen and (max-width: 320px){
+    .introduction__subtitle{
+        width: 90%;
+        height: 40px;
+        font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  
+      } 
+}

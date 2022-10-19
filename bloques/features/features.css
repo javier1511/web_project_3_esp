@@ -8,3 +8,26 @@
    margin-top: 93px;
   }
   
+  @media screen and (max-width: 768px){
+      
+    .features{  
+      width: 100%;
+     margin-top: 90px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto auto;
+    column-gap: 28px;
+     }
+  }
+  
+  @media screen and (max-width: 320px){
+    .features{
+      margin-top: 16;
+      margin-bottom: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+   
+    }
+  }
+  

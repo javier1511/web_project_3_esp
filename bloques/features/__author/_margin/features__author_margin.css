@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px){
+   
+  }
+  
+  @media screen and (max-width: 320px){
+    .features__author_margin{
+        margin-top: 50px;
+      }
+  }
+  

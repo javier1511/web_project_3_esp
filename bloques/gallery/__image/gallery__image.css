@@ -5,3 +5,19 @@
     object-fit: cover;
   
 }
+
+@media screen and (max-width: 768px){
+    .gallery__image{
+        max-width: 352px;
+       max-height: 264px;
+      }
+}
+
+@media screen and (max-width: 320px){
+    .gallery__image{
+        width: 288px;
+        height: 216px;
+        margin: auto;
+  
+      }
+}

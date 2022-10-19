@@ -10,3 +10,26 @@
      margin-bottom: 92px;
 
   }
+  @media screen and (max-width: 768px){
+    
+    .gallery{
+      max-width: 93.75%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+    }
+  }
+  
+  @media screen and (max-width: 320px){
+    .gallery{
+      width: 90%;
+       margin-top: 420px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+ 
+    
+  
+    }
+  }
+  

@@ -4,3 +4,18 @@
     grid-column:1/2;
     grid-row:2/3;
 }
+@media screen and (max-width: 768px){
+    .features__main-picture{
+        max-width: 320px;
+        height: auto;
+       margin: 0;
+       margin-bottom: 0;
+      }
+}
+
+@media screen and (max-width: 320px){
+    .features__main-picture{
+        margin: 0;
+      width: 70%;
+      }
+}

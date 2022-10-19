@@ -2,3 +2,16 @@
     max-width: 100%;
       margin-top: 34px;
   }
+  @media screen and (max-width: 768px){
+    
+  }
+  
+  @media screen and (max-width: 320px){
+    .header{
+      width: 62.5%;
+      margin: auto;
+      margin-top: 20px;
+     
+      }
+  }
+  

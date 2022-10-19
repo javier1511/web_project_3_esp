@@ -1,3 +1,18 @@
 .features__main{
     margin-bottom: 48px;
 }
+@media screen and (max-width: 768px){
+    .features__main{
+        max-width: 340px;
+        min-width: 340px;
+      margin: 0;
+     }
+}
+
+@media screen and (max-width: 320px){
+    .features__main{
+        max-width:90%;
+        min-width:90%;
+        margin:0;  
+      }
+}

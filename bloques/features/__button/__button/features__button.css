@@ -18,3 +18,32 @@
   .features__button:hover{
     opacity: 0.3;
   }
+
+  @media screen and (max-width: 768px){
+    .features__button{
+      margin: 0;
+      width: 355px;
+      height: 48px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+
+
+
+     }
+  }
+  
+  @media screen and (max-width: 320px){
+    .features__button{
+      margin: 0;
+            width: 288px;
+            height: 48px;
+            font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+          }
+  }
+  

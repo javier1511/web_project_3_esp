@@ -4,3 +4,20 @@
     width: 100%;
     height: 203px;
     }
+    @media screen and (max-width: 768px){
+        .features__description{  
+            width: 352px;
+            row-gap: 14px;
+           }
+    }
+    
+    @media screen and (max-width: 320px){
+        .features__description{
+            margin: 0 auto;
+           width: 90%;
+          margin-bottom: 300px;
+          
+          }
+    }
+    
+    

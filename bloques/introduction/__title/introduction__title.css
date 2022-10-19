@@ -9,3 +9,30 @@
     font-size: 96px;
     text-align: center;
     }
+    @media screen and (max-width: 768px){
+        .introduction__title{
+            width: 93.75%;
+            font-family: 'Inter';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 96px;
+      line-height: 100px;
+      margin: 0 auto;
+      margin-top: 91px;
+          }
+    }
+    
+    @media screen and (max-width: 320px){
+        .introduction__title{
+            margin-top: 50px;
+            width: 100%;
+            font-family: 'Inter';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 44px;
+      
+           
+          }
+    }
+    

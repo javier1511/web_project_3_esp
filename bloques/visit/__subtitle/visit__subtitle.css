@@ -9,3 +9,29 @@
   color: #FFFFFF;
   margin:0;
   }
+
+  @media screen and (max-width: 768px){
+    
+    .visit__subtitle{ 
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      width: 36.45%;
+      margin: 0;
+           }
+  }
+  
+  @media screen and (max-width: 320px){
+    .visit__subtitle{
+      width: 87.5%;
+      font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+    }
+  }
+  
