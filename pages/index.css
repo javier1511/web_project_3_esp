@@ -171,7 +171,7 @@ height: 340px;
 margin: 0;
      }
      .features__description{  
-      width: 352px; 
+      width: 352px;
       row-gap: 14px;
      }
      .features__text{
@@ -382,7 +382,7 @@ margin: 0;
     .features{
       margin-top: 16;
       margin-bottom: 0;
-      width: 100%;    
+      width: 100%;
       display: flex;
       flex-direction: column;
    
@@ -390,9 +390,8 @@ margin: 0;
 
    
 .features__description{
-  margin: 0;  
+  margin: 0 auto;
  width: 90%;  
-margin: auto;
 margin-bottom: 300px;
 
 }
