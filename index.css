@@ -1,0 +1,473 @@
+*{
+    margin: 0 auto;
+}
+
+.page{
+background-color: #2A2C2F;
+color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 768px) {
+   .page{
+      width: 100%;
+
+   }
+
+   .header{
+      width: 35.15%;
+      border: solid 1px red;
+      padding-top: 34px;
+   }
+
+   .header__logo{
+      width: 270px;
+height: 70px;
+border: solid 1px red;
+   }
+
+   .introduction{
+      width: 100%;
+
+      border: solid 1px red;
+   }
+
+   .introduction__title{
+      width: 93.75%;
+      border: solid 1px red;
+      font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+text-align: center;
+padding-bottom: 99px;
+padding-top: 91px;
+   }
+
+   .introduction__subtitle{
+      font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+width: 93.75%;
+   }
+
+   .introduction__image{
+max-width: 100%;
+min-width: 100%;
+max-height: none;
+padding-top: 69px;
+padding-bottom: 55px;
+   }
+
+   .presentation{
+      width: 93.75%;
+      
+   }
+
+   .presentation__title{
+      font-style: normal;
+font-weight: 900;
+font-size: 54px;
+line-height: 58px;
+padding-bottom: 15px;
+   }
+
+   .presentation__subtitle{
+      font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+   }
+   .presentation__author{
+      font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+text-align: right;
+color: #FFFFFF;
+margin-top: -30px;
+   }
+
+   .presentation__text{
+      font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+padding-top: 32px;
+   }
+
+   .gallery{
+      width:100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      padding-top: 84px; 
+      padding-bottom: 88px;
+      border: solid 1px red;
+      gap: 16px;
+      
+   }
+
+   .gallery__image{
+     width: 100%;
+     max-height: none;
+      border: solid 1px red;
+   }
+
+   .places{
+      width: 100%;
+      margin: auto;
+   
+   }
+   .features{
+    width: 93.75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15% 50% auto;
+    column-gap: 28px;
+   
+
+   }
+
+
+
+   .features__main{
+      width: 100%;
+
+ 
+   }
+
+   .features__title{
+    
+      font-style: normal;
+font-weight: 900;
+font-size: 42px;
+line-height: 46px;
+
+   }
+
+   .features__main-picture{
+   width: 100%;
+     
+     
+   }
+
+   .features__picture{
+   width: 100%;
+      max-height: none;
+   
+   }
+
+   .features__author{
+   
+      width: 100%;
+ 
+   }
+
+   .features__artist{
+      width: 83.80%;
+      margin-left: 0;
+      font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+color: #AAAAAA;
+
+padding-bottom: 8px;
+   }
+
+   .features__job{
+      width: 83.80%;
+      margin-left: 0;
+ 
+   }
+
+   .features__description{
+      width: 100%;
+      gap: 14px;
+      display: flex;
+      flex-direction:column
+
+   }
+
+   .features__text{
+     margin-left: 0;
+      width: 90%;
+      font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+
+
+
+   }
+
+
+   .features__buy{
+      width: 100%;
+  
+
+ 
+   }
+
+   .features__button{
+      width: 100%;
+height: 48px;
+background: #0278FE;
+border-radius: 4px;
+border:none;
+color: white;
+
+   }
+
+}
+
+@media screen and (max-width: 598px) {
+ .page{
+  width: 100%;
+  min-width: 100%;
+ 
+ }
+   
+ .header{
+    width: 62.5%;
+    margin: auto;
+    padding-top: 20px;
+    border: solid 1px red;
+ }
+ .header__logo{
+width: 100%;
+    border: solid 1px red;
+ }
+
+ .introduction{
+ width: 100%;
+    border: solid 1px red;
+ }
+ .introduction__title{
+    width: 90%;
+    text-align: center;
+    border: solid 1px red;
+    padding-top: 50.89px;
+padding-bottom: 60px;
+font-weight: 900;
+font-size: 40px;
+line-height: 44px;
+
+ }
+ .introduction__subtitle{
+    text-align: center;
+    border: solid 1px red;
+ }
+ .introduction__image{
+   max-width: 100%;
+   min-width: 100%;
+   max-height: none;
+    padding-bottom: 44px;
+    padding-top: 44px;
+    border: solid 1px red;
+ }
+
+ .presentation{
+    width: 90%  ;
+    border: solid 1px red;
+ }
+ .presentation__title{
+    font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 35px;
+border: solid 1px red;
+ }
+ .presentation__subtitle{
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+border: solid 1px red;
+
+ }
+ .presentation{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+border: solid 1px red;
+ }
+ .presentation__author{
+   width: 100%;
+    text-align: right;
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+border: solid 1px red;
+ }
+ .presentation__text{
+    width: 90%;
+    border: solid 1px red;
+ }
+
+
+ .gallery{
+   width: 100%;
+      padding-top: 38px;
+      padding-bottom: 62px;  
+      border: solid 1px red;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      gap: 12px;
+   
+  }
+  .gallery__image{
+   width: 90%;
+   max-height: none;
+   display: flex;
+  }
+
+  .places{
+   width: 100%
+  }
+  
+  .features{
+   width: 100%;
+   padding-bottom: 16px;
+   display: flex;
+   flex-direction: column;
+  }
+
+  .features_extra{
+   margin-bottom: 16px;
+ }
+  .features__main{
+   width: 90%;
+   border: solid 1px red;
+   padding-bottom: 30px;
+  }
+
+  .features__title{
+   font-weight: 900;
+font-size: 32px;
+line-height: 35px;
+border: solid 1px red;
+
+  }
+  .features__author{
+   width: 90%;
+   border: solid 1px red;
+   padding-bottom: 30px;
+  }
+  .features__artist{
+   margin-bottom: 8px;
+   font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+color: #AAAAAA;
+border: solid 1px red;
+  }
+  .features__job{
+   font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+border: solid 1px red;
+  }
+
+  .features__main-picture{
+   width: 100%;
+  }
+
+  .features__picture{
+   width: 100%;
+   max-height: none;
+  }
+
+  .features__description{
+   width: 90%;
+
+  }
+  .features__text{
+   font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+padding-bottom: 10px;
+  }
+  .features__buy{
+   width: 90%;
+   padding-top: 0;
+  }
+
+  .features__button{
+ width: 100%;
+height: 48px;
+background: #0278FE;
+border-radius: 4px;
+color: white;
+border: none;
+  }
+
+  .visit{
+   width: 100%;
+
+
+  }
+
+  .visit__container{
+   max-width: 100%;
+   min-width: 100%;
+height: 254px;
+   background-image: url(./images/__background.png);
+   background-repeat:no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .visit__title{
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 35px;
+  }
+  .visit__subtitle{
+   font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+width: 87.5%;
+  }
+
+  .visit__button{
+   width: 198px;
+height: 48px;
+background: #0278FE;
+border-radius: 4px;
+border: none;
+color: #FFFFFF;
+  }
+
+  .footer{
+   width: 100%;
+   padding-top: 64px;
+   padding-bottom: 24px;
+   border: solid 1px red;
+  }
+
+  .footer__signature{
+   text-align: center;
+   font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+   border: solid 1px red;
+  }
+}
+
