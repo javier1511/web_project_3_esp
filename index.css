@@ -134,6 +134,8 @@ width: 77.10%;
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    grid-template-rows: min-content 460px auto;
+   column-gap: 40px;
+   
 
 
 
@@ -142,12 +144,12 @@ width: 77.10%;
 
 .features__main{
 
-  max-width: 100%;
+
    border: solid 1px red;
 }
 
 .features__title{
-
+   width: 460px;
    font-style: normal;
 font-weight: 900;
 font-size: 72px;
@@ -162,6 +164,7 @@ border: solid 1px red;
 }
 
 .features__picture{
+   width: 460px;
 
 border: solid 1px red; 
 }
@@ -174,12 +177,14 @@ border: solid 1px red;
 }
 
 .features__text{
-
+ padding-bottom: 25px;
    font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 163%;
 border: solid 1px red; 
+grid-column: 2 / 3;
+grid-row: 2 / 4;
 
 }
 
