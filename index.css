@@ -2,28 +2,36 @@
 
 *{
     margin: 0 auto;
-    background-color: #2A2C2F;
-color: #FFFFFF;
+}
+
+body{
+   background-color: #2A2C2F;
 }
 
 .page{
    width: 1280px; 
-   margin: auto   ;
+height: auto;
    border: solid 1px red;
 
-
+   background-color: #2A2C2F;
+   color: #FFFFFF;  
 }
 
 .header{
    width: 21.79%;
    border: solid 1px red;
+   padding-top: 34px;
+   padding-bottom: 91px;
+}
+
+..header__logo{
+   width: 100%;
 }
 
 .introduction{
    width: 100%;
    border: solid 1px red;
 }
-
 
 
 .introduction__title{
@@ -34,6 +42,7 @@ font-size: 96px;
 line-height: 100px;
 text-align: center;
 border: solid 1px red;
+padding-bottom: 32px;
 }
 
 .introduction__subtitle{
@@ -43,7 +52,8 @@ border: solid 1px red;
    font-weight: 400;
    font-size: 30px;
    line-height: 36px;
-     text-align: center;   
+     text-align: center;
+     padding-bottom: 64px; 
 }
 
 .introduction__image{
@@ -110,12 +120,12 @@ padding-right: 412px;
 }
 
 .gallery{
-  
    width: 100%;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-evenly;
    gap: 16px;
+   padding: 92px 0 62px 0;   
 
 }
 
@@ -135,16 +145,11 @@ width: 77.10%;
    grid-template-columns: repeat(2, 1fr);
    grid-template-rows: min-content 460px auto;
    column-gap: 40px;
-   
-
-
-
-
+   row-gap: 17px;
+   padding-bottom: 80px;
 }
 
 .features__main{
-
-
    border: solid 1px red;
 }
 
@@ -154,25 +159,52 @@ width: 77.10%;
 font-weight: 900;
 font-size: 72px;
 line-height: 76px;
-border: solid 1px red;  
-
+border: solid 1px red;
 }
+
+.features__title_width{
+width: 99%;
+}
+
+.
 .features__main-picture{
-  
    border: solid 1px red;  
    margin-left: 0;
 }
 
 .features__picture{
    width: 460px;
-
 border: solid 1px red; 
 }
 
+.features__author{
+width: 100%;
+display: flex;
+flex-direction: column;
+border: solid 1px red; 
+justify-content: flex-end;
+}
+.features__artist{
+   width: 100%;
+   font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
 
-
+letter-spacing: 0.12em;
+   border: solid 1px red; 
+}
+.features__job{
+   width: 100%;
+   font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;   
+   border: solid 1px red; 
+}
 .features__description{
-
+   width: 100%;
    border: solid 1px red; 
 }
 
@@ -189,17 +221,90 @@ grid-row: 2 / 4;
 }
 
 .features__buy{
-
+padding-top: 21px;
 }
 .features__button{
    width: 355px;
 height: 48px;
 left: 148px;
 top: 3119px;
-
+color: white;
+border: none;
 background: #0278FE;
 border-radius: 4px;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
 }
+
+.visit{
+   width: 100%;
+   padding-top: 12px;
+   padding-bottom: 92px;
+}
+
+.visit__container{
+   width: 92.50%;
+   height: auto;
+   background-image: url(./images/__background.png);
+   height: 740px;
+   background-repeat:no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.visit__title{
+   font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+padding-bottom: 32px;
+}
+
+.visit__subtitle{
+   font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+}
+
+.visit__button{
+  margin-top: 32px;
+   width: 198px;
+height: 48px;
+left: 541px;
+top: 7050px;
+color: white;
+background: #0278FE;
+border-radius: 4px;
+border: none;
+border: solid 1px red;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+
+.footer{
+   width: 14.92%;
+   border: solid 1px red;
+   padding-bottom: 24px;
+}
+
+.footer__signature{
+   font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+}
+
+
 @media screen and (max-width: 768px) {
    .page{
       width: 100%;
@@ -210,11 +315,11 @@ border-radius: 4px;
       width: 35.15%;
       border: solid 1px red;
       padding-top: 34px;
+      padding-bottom: 0;
    }
 
    .header__logo{
-      width: 270px;
-height: 70px;
+   width: 100%;
 border: solid 1px red;
    }
 
@@ -243,6 +348,7 @@ font-size: 30px;
 line-height: 36px;
 text-align: center;
 width: 93.75%;
+padding-bottom: 0;
    }
 
    .introduction__image{
@@ -256,12 +362,12 @@ padding-bottom: 55px;
    }
 
    .presentation{
-      width: 93.75%;
+      width: 100%;
       
    }
 
    .presentation__title{
-   width: 100%;
+      width: 93.75%;
       font-style: normal;
 font-weight: 900;
 font-size: 54px;
@@ -271,7 +377,7 @@ padding: 0 0 15px 0;
    }
 
    .presentation__subtitle{
-      width: 100%;
+      width: 93.75%;
       font-style: normal;
 font-weight: 400;
 font-size: 24px;
@@ -279,7 +385,7 @@ line-height: 34px;
 padding: 0;
    }
    .presentation__author{
-      width: 100%;
+      width: 93.75%;
       font-style: normal;
 font-weight: 400;
 font-size: 24px;
@@ -291,7 +397,7 @@ margin-top: -30px;
    }
 
    .presentation__text{
-      width: 100%;
+      width: 93.75%;
       font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -337,12 +443,10 @@ padding: 32px 0 0 0;
 
    .features__main{
       width: 100%;
-
- 
    }
 
    .features__title{
-    
+    width: 100%;
       font-style: normal;
 font-weight: 900;
 font-size: 42px;
@@ -389,8 +493,7 @@ padding-bottom: 8px;
 
    .features__description{
       width: 100%;
-      gap: 14px;
-    
+      
       grid-column: 2/3;
       grid-row: 2/4;
 
@@ -403,18 +506,15 @@ padding-bottom: 8px;
 font-weight: 400;
 font-size: 16px;
 line-height: 163%;
-
-
-
+padding-bottom: 14px;
    }
 
-
+.features__text-extra{
+   padding-bottom: 11px;
+}
    .features__buy{
       width: 100%;
       padding-top: 48px;
-  
-
- 
    }
 
    .features__button{
@@ -424,7 +524,6 @@ background: #0278FE;
 border-radius: 4px;
 border:none;
 color: white;
-
    }
 
 
@@ -443,24 +542,23 @@ color: white;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 32px   ;
+ 
    }
 
    .visit__title{
-    
       font-style: normal;
 font-weight: 900;
 font-size: 72px;
 line-height: 76px;
    }
    .visit__subtitle{
-    
       width: 36.45%;
       text-align: center;
       font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 22px;
+
    }
 
    .visit__button{   
@@ -469,13 +567,20 @@ line-height: 22px;
       width: 198px;
 height: 48px;
 color:white ;
-border: noe;
-
+border: none;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+   }
+   .footer{
+      width: 100%;
+      border: solid 1px red;
    }
    
 }
 
-@media screen and (max-width: 598px) {
+@media screen and (max-width: 320px) {
  .page{
   width: 100%;
   min-width: 100%;
@@ -509,7 +614,13 @@ line-height: 44px;
 
  }
  .introduction__subtitle{
+   width: 90%;
+   padding: 0;
     text-align: center;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
     border: solid 1px red;
  }
  .introduction__image{
@@ -538,6 +649,10 @@ font-weight: 400;
 font-size: 24px;
 line-height: 30px;
 border: solid 1px red;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;   
 
  }
  .presentation{
@@ -554,9 +669,15 @@ border: solid 1px red;
 font-weight: 400;
 font-size: 24px;
 line-height: 34px;
+margin: 0;
 border: solid 1px red;
  }
  .presentation__text{
+   font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+   padding: 0;
     width: 90%;
     border: solid 1px red;
  }
@@ -571,12 +692,14 @@ border: solid 1px red;
       grid-template-columns: 1fr;
       grid-template-rows: auto;
       gap: 12px;
+ 
    
   }
   .gallery__image{
    width: 90%;
    max-height: none;
    display: flex;
+   margin: auto;
   }
 
   .places{
@@ -600,6 +723,7 @@ border: solid 1px red;
   }
 
   .features__title{
+   width: 100%;
    font-weight: 900;
 font-size: 32px;
 line-height: 35px;
@@ -659,10 +783,15 @@ background: #0278FE;
 border-radius: 4px;
 color: white;
 border: none;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
   }
 
   .visit{
    width: 100%;
+   padding: 0;
 
 
   }
@@ -676,9 +805,9 @@ height: 254px;
    background-size: cover;
    display: flex;
    flex-direction: column;
-   gap: 16px;
    align-items: center;
    justify-content: center;
+   
   }
 
   .visit__title{
@@ -686,6 +815,7 @@ height: 254px;
    font-weight: 900;
    font-size: 32px;
    line-height: 35px;
+   padding-bottom: 16px;
   }
   .visit__subtitle{
    font-style: normal;
@@ -697,6 +827,7 @@ width: 87.5%;
   }
 
   .visit__button{
+   margin-top: 16px;
    width: 198px;
 height: 48px;
 background: #0278FE;
