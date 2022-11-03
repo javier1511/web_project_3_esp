@@ -7,10 +7,6 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #AAAAAA;
-    font-weight: 400;
- font-size: 12px;
- line-height: 15px;
- letter-spacing: 0.12em;
  }
 
  @media screen and (max-width: 768px) {
@@ -31,8 +27,7 @@
 
 @media screen and (max-width: 320px){
     .features__artist{
-     
-        font-weight: 400;
+     font-weight: 400;
      font-size: 12px;
      line-height: 15px;
      letter-spacing: 0.12em;
