@@ -1,0 +1,21 @@
+.presentation{
+    width: 100%;
+ }
+
+ @media screen and (max-width: 768px) {
+    .presentation{
+        width: 100%; 
+     }
+  
+
+}
+
+@media screen and (max-width: 320px){
+    .presentation{
+        width: 90%  ;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+     }
+}

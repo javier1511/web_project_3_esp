@@ -1,0 +1,29 @@
+.visit__title{
+    margin: 0;
+    font-style: normal;
+ font-weight: 900;
+ font-size: 72px;
+ line-height: 76px;
+ padding-bottom: 32px;
+ }
+
+ @media screen and (max-width: 768px) {
+    .visit__title{
+        font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+     }
+  
+
+}
+
+@media screen and (max-width: 320px){
+    .visit__title{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        padding-bottom: 16px;
+       }
+}

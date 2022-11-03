@@ -1,0 +1,18 @@
+
+.footer__signature{
+    font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 16px;
+ text-align: center;
+ }
+
+
+@media screen and (max-width: 320px){
+    .footer__signature{
+        text-align: center;
+        font-weight: 400;
+     font-size: 14px;
+     line-height: 14px;
+       }
+}

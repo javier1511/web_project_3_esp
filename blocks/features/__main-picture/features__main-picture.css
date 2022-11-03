@@ -1,0 +1,18 @@
+.features__main-picture{  
+    margin-left: 0;
+ }
+
+ @media screen and (max-width: 768px) {
+ 
+    .features__main-picture{
+        width: 100%;
+        }
+
+}
+
+@media screen and (max-width: 320px){
+    .features__main-picture{
+        width: 100%;
+        padding-top: 30px;
+       }
+}

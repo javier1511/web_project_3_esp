@@ -1,0 +1,24 @@
+.visit{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 92px;
+ }
+
+ .visit:hover{
+    opacity: 0.2;
+ }
+
+ @media screen and (max-width: 768px) {
+    .visit{
+        width: 100%;
+     }
+  
+
+}
+
+@media screen and (max-width: 320px){
+    .visit{
+        width: 100%;
+        padding: 0;
+       }
+}

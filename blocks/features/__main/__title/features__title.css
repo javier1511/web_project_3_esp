@@ -1,0 +1,30 @@
+.features__title{
+    margin: 0;
+    width: 460px;
+    font-style: normal;
+ font-weight: 900;
+ font-size: 72px;
+ line-height: 76px;
+ }
+
+ @media screen and (max-width: 768px) {
+    .features__title{
+        width: 100%;
+          font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+       }
+  
+
+}
+
+@media screen and (max-width: 320px){
+    .features__title{
+     
+        width: 90%;
+        font-weight: 900;
+     font-size: 32px;
+     line-height: 35px;
+       }
+}

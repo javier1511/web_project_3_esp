@@ -1,0 +1,19 @@
+.features__picture{
+    width: 460px; 
+ }
+
+ @media screen and (max-width: 768px) {
+    .features__picture{
+        width: 100%;
+           max-height: none;
+        }
+  
+
+}
+
+@media screen and (max-width: 320px){
+    .features__picture{
+        width: 100%;
+        max-height: none;
+       }
+}

@@ -1,0 +1,31 @@
+
+.visit__subtitle{
+    font-style: normal;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 22px;
+ }
+
+ @media screen and (max-width: 768px) {
+    .visit__subtitle{
+        width: 36.45%;
+        text-align: center;
+        font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+     }
+  
+
+}
+
+@media screen and (max-width: 320px){
+    .visit__subtitle{
+        font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 16px;
+     text-align: center;
+     width: 87.5%;
+       }
+}

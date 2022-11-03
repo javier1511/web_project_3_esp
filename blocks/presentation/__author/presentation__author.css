@@ -1,0 +1,41 @@
+.presentation__author{
+    width: 56.25%;
+    font-style: normal;
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 34px;
+ padding-right: 410px;
+ padding-left: 148px;
+ text-align: right;
+ margin-top: -30px;
+ padding-bottom: 32px;
+ }
+
+ @media screen and (max-width: 768px) {
+    .presentation__author{
+        width: 93.75%;
+        font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: right;
+  color: #FFFFFF;
+  padding: 0;
+  margin-top: -30px;
+     }
+  
+  
+
+}
+
+@media screen and (max-width: 320px){
+    .presentation__author{
+        width: 100%;
+         text-align: right;
+         font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 34px;
+     margin: 0;
+      }
+}

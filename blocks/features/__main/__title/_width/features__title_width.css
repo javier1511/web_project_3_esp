@@ -1,0 +1,12 @@
+.features__title_width{
+    width: 80%;
+    margin-left: 0;
+    }
+
+    @media screen and (max-width: 320px){
+
+        .features__title_width{
+            padding-left: 8px;
+            }
+    
+    }

@@ -1,0 +1,26 @@
+
+.features__job{
+    width: 100%;
+    font-style: normal;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 22px;   
+ }
+
+ @media screen and (max-width: 768px) {
+    .features__job{
+        width: 83.80%;
+        margin-left: 0;
+     }
+  
+
+}
+
+@media screen and (max-width: 320px){
+    .features__job{
+        font-weight: 400;
+     font-size: 18px;
+     line-height: 22px;
+    
+       }
+}
