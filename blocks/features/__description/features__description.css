@@ -1,10 +1,13 @@
 .features__description{
     width: 100%;
+  
+
  }
 
  @media screen and (max-width: 768px) {
     .features__description{
-        width: 100%;
+        width: 90%;
+        margin: 0;
         grid-column: 2/3;
         grid-row: 2/4;
      }
@@ -15,5 +18,6 @@
 @media screen and (max-width: 320px){
     .features__description{
         width: 90%;
+        margin: auto;
        }
 }

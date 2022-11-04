@@ -7,12 +7,14 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #AAAAAA;
+
  }
 
  @media screen and (max-width: 768px) {
     .features__artist{
         width: 83.80%;
         margin-left: 0;
+        margin-right: 0;
         font-weight: 400;
   font-size: 12px;
   line-height: 15px;
