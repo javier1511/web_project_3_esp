@@ -2,18 +2,21 @@
     width: 460px; 
  }
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 1279px) {
     .features__picture{
-        width: 100%;
+        width: 340px;
+height: 340px;
            max-height: none;
         }
   
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .features__picture{
-        width: 100%;
+        max-width: 100%;
         max-height: none;
+        display: flex;
+        margin: auto;
        }
 }

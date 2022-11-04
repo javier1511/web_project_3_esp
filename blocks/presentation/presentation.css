@@ -1,10 +1,9 @@
 .presentation{
     width: 100%;
-    border: 1px solid red;
    
  }
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 1279px) {
     .presentation{
         width: 100%; 
      }
@@ -12,7 +11,7 @@
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .presentation{
         width: 90%;
         font-style: normal;

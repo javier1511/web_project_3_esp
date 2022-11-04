@@ -9,7 +9,7 @@
     
  }
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 1279px) {
     .gallery{
         width:100%;
         display: grid;
@@ -23,7 +23,7 @@
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .gallery{
         width: 100%;
            padding-top: 38px;

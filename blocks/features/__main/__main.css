@@ -3,7 +3,7 @@
     
  }
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 1279px) {
     .features__main{
         width: 100%;
      }
@@ -11,7 +11,7 @@
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .features__main{
         width: 90%;
         padding-bottom: 30px;

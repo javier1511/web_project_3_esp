@@ -1,3 +1,4 @@
+
 .features{
     width: 77.10%;
        display: grid;
@@ -9,7 +10,7 @@
      
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1279px) {
         .features{
             width: 93.75%;
             display: grid;
@@ -22,7 +23,7 @@
 
     }
    
-    @media screen and (max-width: 320px){
+    @media screen and (max-width: 767px){
         .features{
             width: 100%;
             display: flex;
