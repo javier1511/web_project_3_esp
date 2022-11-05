@@ -6,7 +6,7 @@
   
 **Funcionalidades**
 Este es un proyecto adapatativo, podras observar el enfoque en medidas de 1279px y 767px, un proyecto pensado e iniciado desde la resolucion mas pequena a una regular,
-utilizamos VSC para el desarrollo del proyecto.
+utilizamos VSC para el desarrollo del proyecto, para desarrollarlo me apoyo con flex, grid y mucha paciencia y automotivacion.
 
 **Introducción**    
   
