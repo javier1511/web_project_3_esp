@@ -7,6 +7,7 @@
 **Funcionalidades**
 Este es un proyecto adapatativo, podras observar el enfoque en medidas de 1279px y 767px, un proyecto pensado e iniciado desde la resolucion mas pequena a una regular,
 utilizamos VSC para el desarrollo del proyecto.
+
 **Introducción**    
   
 Este es un proyecto que muestra las ciudades natales de algunos de los empleados de Practicum. Lo hemos diseñado de tal modo que todos los elementos se muestren correctamente en los tamaños de pantalla más habituales. Recomendamos invertir más tiempo en completar este proyecto, ya que es más difícil que los anteriores.     
@@ -20,3 +21,7 @@ Este es un proyecto que muestra las ciudades natales de algunos de los empleados
 A la hora de trabajar, debes optar por exportar las imágenes directamente desde Figma; te recomendamos hacerlo para practicar más. No olvides optimizarlas [aquí](https://tinypng.com/), para que tu proyecto cargue más rápido.   
   
 ¡Mucha suerte y que te lo pases bien! 
+
+
+**My site**
+https://javier1511.github.io/web_project_3_esp/
