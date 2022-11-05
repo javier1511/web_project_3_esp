@@ -7,7 +7,8 @@
 
  @media screen and (max-width: 1279px) {
     .introduction__image{
-        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
         max-height: none;
         padding: 69px 0 55px 0;
         display: flex;
@@ -17,8 +18,8 @@
 
 @media screen and (max-width: 767px){
     .introduction__image{
-        width: 100%;
-        max-height: none;
+        min-width: 100%;
+        max-width: 100%;
          padding-bottom: 44px;
          padding-top: 44px;
       }

@@ -4,6 +4,9 @@
 * Figma  
 * Imágenes  
   
+**Funcionalidades**
+Este es un proyecto adapatativo, podras observar el enfoque en medidas de 1279px y 767px, un proyecto pensado e iniciado desde la resolucion mas pequena a una regular,
+utilizamos VSC para el desarrollo del proyecto.
 **Introducción**    
   
 Este es un proyecto que muestra las ciudades natales de algunos de los empleados de Practicum. Lo hemos diseñado de tal modo que todos los elementos se muestren correctamente en los tamaños de pantalla más habituales. Recomendamos invertir más tiempo en completar este proyecto, ya que es más difícil que los anteriores.     
