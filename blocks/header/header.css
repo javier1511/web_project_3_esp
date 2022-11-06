@@ -1,25 +1,21 @@
-
-.header{
+.header {
     width: 21.79%;
     padding-top: 34px;
     padding-bottom: 91px;
- }
+}
 
- @media screen and (max-width: 1279px) {
-    .header{
+@media screen and (max-width: 1279px) {
+    .header {
         width: 35.15%;
         padding-top: 34px;
         padding-bottom: 0;
-     }
-  
+    }
+}
 
- }
-
- @media screen and (max-width: 767px){
-
-    .header{
+@media screen and (max-width: 767px) {
+    .header {
         width: 62.5%;
         margin: auto;
         padding-top: 20px;
-     }
- }
+    }
+}

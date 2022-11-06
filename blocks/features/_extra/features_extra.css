@@ -1,9 +1,5 @@
-
-
-@media screen and (max-width: 767px){
-
-    .features_extra{
+@media screen and (max-width: 767px) {
+    .features_extra {
         margin-bottom: 16px;
-      }
-      
+    }
 }

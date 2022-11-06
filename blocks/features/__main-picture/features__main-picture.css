@@ -1,18 +1,16 @@
-.features__main-picture{  
+.features__main-picture {
     margin-left: 0;
- }
-
- @media screen and (max-width: 1279px) {
- 
-    .features__main-picture{
-        width: 100%;
-        }
-
 }
 
-@media screen and (max-width: 767px){
-    .features__main-picture{
+@media screen and (max-width: 1279px) {
+    .features__main-picture {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .features__main-picture {
         width: 100%;
         padding-top: 30px;
-       }
+    }
 }

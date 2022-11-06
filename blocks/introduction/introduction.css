@@ -1,18 +1,15 @@
-.introduction{
+.introduction {
     width: 100%;
-    
- }
+}
 
- @media screen and (max-width: 1279px) {
-    .introduction{
+@media screen and (max-width: 1279px) {
+    .introduction {
         width: 100%;
-     }
-  
+    }
+}
 
- }
-
- @media screen and (max-width: 767px){
-    .introduction{
+@media screen and (max-width: 767px) {
+    .introduction {
         width: 100%;
-        }
- }
+    }
+}

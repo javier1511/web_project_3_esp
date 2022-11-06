@@ -1,0 +1,27 @@
+.features__author-artist {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    padding-bottom: 8px;
+}
+
+@media screen and (max-width: 1279px) {
+    .features__author-artist {
+        width: 83.8%;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #aaaaaa;
+        padding-bottom: 8px;
+    }
+}
+

@@ -1,0 +1,23 @@
+.features__author-job {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 1279px) {
+    .features__author-job {
+        width: 83.8%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .features__author-job {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

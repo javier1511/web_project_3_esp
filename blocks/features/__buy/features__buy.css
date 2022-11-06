@@ -1,20 +1,18 @@
-.features__buy{
+.features__buy {
     width: 100%;
- padding-top: 21px;
- }
-
- @media screen and (max-width: 1279px) {
-    .features__buy{
-        width: 100%;
-        padding-top: 48px;
-     }
-  
-
+    padding-top: 21px;
 }
 
-@media screen and (max-width: 767px){
-    .features__buy{
+@media screen and (max-width: 1279px) {
+    .features__buy {
+        width: 100%;
+        padding-top: 48px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .features__buy {
         width: 90%;
         padding-top: 0;
-       }
+    }
 }

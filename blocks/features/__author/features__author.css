@@ -1,23 +1,22 @@
-.features__author{
+.features__author {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    }
+}
 
-    @media screen and (max-width: 1279px) {
-        .features__author{
-            width: 95%;
-            margin-left: 0;
-         }
-  
-
+@media screen and (max-width: 1279px) {
+    .features__author {
+        width: 95%;
+        margin-left: 0;
     }
-   
-    @media screen and (max-width: 767px){
-        .features__author{
-            width: 90%;
-            display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    .features__author {
+        width: 90%;
+        display: flex;
         margin: auto;
-           }
     }
+}
+

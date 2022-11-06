@@ -1,24 +1,21 @@
-.gallery__image{
+.gallery__image {
     width: 22.18%;
     max-height: none;
     margin: 0;
-
- }
-
- @media screen and (max-width: 1279px) {
- 
-    .gallery__image{
-        width: 100%;
-        max-height: none;
-      }
-
 }
 
-@media screen and (max-width: 767px){
-    .gallery__image{
+@media screen and (max-width: 1279px) {
+    .gallery__image {
+        width: 100%;
+        max-height: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gallery__image {
         width: 90%;
         max-height: none;
         display: flex;
         margin: auto;
-       }
+    }
 }

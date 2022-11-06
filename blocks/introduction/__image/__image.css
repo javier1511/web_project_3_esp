@@ -1,26 +1,25 @@
-.introduction__image{
+.introduction__image {
     max-width: 76.87%;
     padding-left: 148px;
     padding-right: 148px;
-    
- }
+}
 
- @media screen and (max-width: 1279px) {
-    .introduction__image{
+@media screen and (max-width: 1279px) {
+    .introduction__image {
         min-width: 100%;
         max-width: 100%;
         max-height: none;
         padding: 69px 0 55px 0;
         display: flex;
         margin: auto;
-           }
+    }
 }
 
-@media screen and (max-width: 767px){
-    .introduction__image{
+@media screen and (max-width: 767px) {
+    .introduction__image {
         min-width: 100%;
         max-width: 100%;
-         padding-bottom: 44px;
-         padding-top: 44px;
-      }
+        padding-bottom: 44px;
+        padding-top: 44px;
+    }
 }

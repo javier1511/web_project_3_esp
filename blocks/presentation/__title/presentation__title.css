@@ -1,5 +1,5 @@
-.presentation__title{
-    font-family: 'Inter';
+.presentation__title {
+    font-family: "Inter";
     margin: 0;
     width: 79.45%;
     padding-top: 92px;
@@ -7,33 +7,29 @@
     padding-left: 148px;
     padding-right: 115px;
     font-style: normal;
- font-weight: 900;
- font-size: 54px;
- line-height: 58px;
-
- }
-
- @media screen and (max-width: 1279px){
- 
-    .presentation__title{
-        width: 93.75%;
-        font-style: normal;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 58px;
-  padding: 0 0 15px 0;
-  margin: 0 auto;
-     }
-  
-
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
 }
 
-@media screen and (max-width: 767px){
-    .presentation__title{
+@media screen and (max-width: 1279px) {
+    .presentation__title {
+        width: 93.75%;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 58px;
+        padding: 0 0 15px 0;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .presentation__title {
         width: 100%;
         font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 35px;
-     }
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+    }
 }
